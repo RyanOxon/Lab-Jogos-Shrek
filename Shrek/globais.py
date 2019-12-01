@@ -10,6 +10,8 @@ MOB_SPEED = 75
     0 > menu
     1 > jogo
     2 > tela de dificuldade
+    3 > tela de win
+    4 > tela de lose
 '''
 GAME_STATE = 0
 GAME_RUNNING = True

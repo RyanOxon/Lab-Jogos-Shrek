@@ -50,7 +50,12 @@ def main():
     #DIFICULDADE
         if globais.GAME_STATE == 2:
     	    menu.diff()
-
+    #Win
+        if globais.GAME_STATE == 3:
+            play.wr()
+    #lose
+        if globais.GAME_STATE == 4:
+            play.ls()
         window.update()
     
 main()
